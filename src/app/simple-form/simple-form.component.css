@@ -1,0 +1,23 @@
+margin-bottom:10px;
+
+:host{
+	display:flex;
+	flex-direction: column;
+}
+
+*{
+	font-family: monospace;
+}
+
+input:focus{
+	font-weight: bold;
+	outline: none;
+}
+
+button{
+	border:none;
+}
+
+.mousedown{
+	border: 2px solid green;
+}
